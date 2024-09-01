@@ -1,6 +1,6 @@
-package com.mouad.Taches.model;
+package com.Taches.model;
 
-import com.mouad.Taches.model.enums.Statut;
+import com.Taches.model.enums.Statut;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

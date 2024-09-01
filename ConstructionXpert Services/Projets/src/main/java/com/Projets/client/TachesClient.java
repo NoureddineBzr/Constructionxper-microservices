@@ -1,6 +1,6 @@
-package com.mouad.Projets.client;
+package com.Projets.client;
 
-import com.mouad.Projets.model.Taches;
+import com.Projets.model.Taches;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,8 +1,8 @@
-package com.mouad.Taches.controller;
+package com.Taches.controller;
 
-import com.mouad.Taches.model.FullTachesResponse;
-import com.mouad.Taches.model.Taches;
-import com.mouad.Taches.service.TachesService;
+import com.Taches.model.FullTachesResponse;
+import com.Taches.model.Taches;
+import com.Taches.service.TachesService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

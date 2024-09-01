@@ -1,10 +1,10 @@
-package com.mouad.Projets.service;
+package com.Projets.service;
 
-import com.mouad.Projets.client.TachesClient;
-import com.mouad.Projets.model.FullProjetResponse;
-import com.mouad.Projets.model.Projets;
-import com.mouad.Projets.model.Taches;
-import com.mouad.Projets.repository.ProjetsRepository;
+import com.Projets.client.TachesClient;
+import com.Projets.model.FullProjetResponse;
+import com.Projets.model.Projets;
+import com.Projets.model.Taches;
+import com.Projets.repository.ProjetsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

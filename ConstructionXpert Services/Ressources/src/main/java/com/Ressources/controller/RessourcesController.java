@@ -1,7 +1,7 @@
-package com.mouad.Ressources.controller;
+package com.Ressources.controller;
 
-import com.mouad.Ressources.model.Ressources;
-import com.mouad.Ressources.service.RessourcesService;
+import com.Ressources.model.Ressources;
+import com.Ressources.service.RessourcesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

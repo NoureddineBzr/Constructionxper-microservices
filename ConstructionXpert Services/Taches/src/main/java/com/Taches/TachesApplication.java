@@ -1,4 +1,4 @@
-package com.mouad.Taches;
+package com.Taches;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

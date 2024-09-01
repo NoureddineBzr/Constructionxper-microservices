@@ -1,7 +1,7 @@
-package com.mouad.Taches.service;
+package com.Taches.service;
 
-import com.mouad.Taches.model.FullTachesResponse;
-import com.mouad.Taches.model.Taches;
+import com.Taches.model.FullTachesResponse;
+import com.Taches.model.Taches;
 
 import java.util.List;
 

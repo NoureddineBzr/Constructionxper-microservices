@@ -1,7 +1,7 @@
-package com.mouad.Ressources.service;
+package com.Ressources.service;
 
-import com.mouad.Ressources.model.Ressources;
-import com.mouad.Ressources.repository.RessourcesRepository;
+import com.Ressources.model.Ressources;
+import com.Ressources.repository.RessourcesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

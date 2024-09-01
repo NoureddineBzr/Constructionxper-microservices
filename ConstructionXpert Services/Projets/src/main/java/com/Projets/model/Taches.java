@@ -1,6 +1,6 @@
-package com.mouad.Projets.model;
+package com.Projets.model;
 
-import com.mouad.Projets.model.enums.Statut;
+import com.Projets.model.enums.Statut;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

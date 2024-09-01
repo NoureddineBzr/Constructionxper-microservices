@@ -1,11 +1,11 @@
-package com.mouad.Taches.service;
+package com.Taches.service;
 
-import com.mouad.Taches.model.FullTachesResponse;
-import com.mouad.Taches.model.Ressources;
-import com.mouad.Taches.model.Taches;
-import com.mouad.Taches.model.client.RessourcesClient;
-import com.mouad.Taches.model.enums.Statut;
-import com.mouad.Taches.repository.TachesRepository;
+import com.Taches.model.FullTachesResponse;
+import com.Taches.model.Ressources;
+import com.Taches.model.Taches;
+import com.Taches.model.client.RessourcesClient;
+import com.Taches.model.enums.Statut;
+import com.Taches.repository.TachesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

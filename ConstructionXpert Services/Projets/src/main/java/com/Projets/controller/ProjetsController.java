@@ -1,8 +1,8 @@
-package com.mouad.Projets.controller;
+package com.Projets.controller;
 
-import com.mouad.Projets.model.FullProjetResponse;
-import com.mouad.Projets.model.Projets;
-import com.mouad.Projets.service.ProjetsService;
+import com.Projets.model.FullProjetResponse;
+import com.Projets.model.Projets;
+import com.Projets.service.ProjetsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

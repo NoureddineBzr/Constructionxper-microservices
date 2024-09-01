@@ -1,7 +1,7 @@
-package com.mouad.Projets.service;
+package com.Projets.service;
 
-import com.mouad.Projets.model.FullProjetResponse;
-import com.mouad.Projets.model.Projets;
+import com.Projets.model.FullProjetResponse;
+import com.Projets.model.Projets;
 
 import java.util.List;
 

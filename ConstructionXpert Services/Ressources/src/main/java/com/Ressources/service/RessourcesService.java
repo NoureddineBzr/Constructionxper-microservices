@@ -1,6 +1,6 @@
-package com.mouad.Ressources.service;
+package com.Ressources.service;
 
-import com.mouad.Ressources.model.Ressources;
+import com.Ressources.model.Ressources;
 
 import java.util.List;
 

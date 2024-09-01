@@ -1,4 +1,4 @@
-package com.mouad.Taches.model;
+package com.Taches.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

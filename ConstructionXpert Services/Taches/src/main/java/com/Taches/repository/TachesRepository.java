@@ -1,6 +1,6 @@
-package com.mouad.Taches.repository;
+package com.Taches.repository;
 
-import com.mouad.Taches.model.Taches;
+import com.Taches.model.Taches;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

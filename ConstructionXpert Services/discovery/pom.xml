@@ -8,7 +8,7 @@
 		<version>3.3.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.mouad</groupId>
+	<groupId>com</groupId>
 	<artifactId>discovery</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>discovery</name>

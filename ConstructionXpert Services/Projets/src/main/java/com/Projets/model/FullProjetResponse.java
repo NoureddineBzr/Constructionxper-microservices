@@ -1,4 +1,4 @@
-package com.mouad.Projets.model;
+package com.Projets.model;
 
 import lombok.*;
 
