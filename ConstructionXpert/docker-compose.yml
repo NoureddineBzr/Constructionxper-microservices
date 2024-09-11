@@ -1,0 +1,81 @@
+version: '3.8'
+services:
+  project-service:
+    build: ./project-service
+    ports:
+      - "8081:8081"
+    networks:
+      - constructionxpert-network
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://project-db:3306/project_db?createDatabaseIfNotExist=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1234
+
+  task-service:
+    build: ./task-service
+    ports:
+      - "8082:8082"
+    networks:
+      - constructionxpert-network
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://task-db:3306/task_db?createDatabaseIfNotExist=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1234
+
+  resource-service:
+    build: ./resource-service
+    ports:
+      - "8083:8083"
+    networks:
+      - constructionxpert-network
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://resource-db:3306/resource_db?createDatabaseIfNotExist=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1234
+
+  project-db:
+    image: mysql:8
+    environment:
+      MYSQL_DATABASE: project_db
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 1234
+      MYSQL_ROOT_PASSWORD: 1234
+    ports:
+      - "3306:3306"
+    networks:
+      - constructionxpert-network
+
+  task-db:
+    image: mysql:8
+    environment:
+      MYSQL_DATABASE: task_db
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 1234
+      MYSQL_ROOT_PASSWORD: 1234
+    ports:
+      - "3307:3306"
+    networks:
+      - constructionxpert-network
+
+  resource-db:
+    image: mysql:8
+    environment:
+      MYSQL_DATABASE: resource_db
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 1234
+      MYSQL_ROOT_PASSWORD: 1234
+    ports:
+      - "3308:3306"
+    networks:
+      - constructionxpert-network
+
+  eureka-server:
+    build: ./eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - constructionxpert-network
+
+networks:
+  constructionxpert-network:
+    driver: bridge
